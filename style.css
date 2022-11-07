@@ -1,0 +1,22 @@
+body {
+  background-color: aliceblue;
+}
+/* Element Selector */
+h1 {
+  color: darkblue;
+}
+/*Universal Selector */
+* {
+  color: cadetblue;
+}
+/* Class Selector*/
+.sucess {
+  color: blue;
+}
+.error {
+  color: red;
+}
+/* Id Selector*/
+#test {
+  color: brown;
+}
