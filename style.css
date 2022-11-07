@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 /* Element Selector */
 h1 {
@@ -20,4 +20,11 @@ h1 {
 /* Id Selector*/
 #test {
   color: brown;
+}
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: underline;
 }
