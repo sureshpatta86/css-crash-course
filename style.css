@@ -42,3 +42,10 @@ ul{
     margin: 0;
     padding: 0;
 }
+.box-model{
+  border: 3px solid red;
+  height: 50px;
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+}
