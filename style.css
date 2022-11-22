@@ -36,16 +36,31 @@ h1 {
   letter-spacing: 4px;
   word-spacing: 20px;
 }
-ul{
-    color: black;
-    list-style-type: armenian;
-    margin: 0;
-    padding: 0;
+ul {
+  color: black;
+  list-style-type: armenian;
+  margin: 0;
+  padding: 0;
 }
-.box-model{
+.box-model {
   border: 3px solid red;
   height: 50px;
   width: 250px;
   padding: 20px;
   margin: 20px;
+}
+th,
+td {
+  padding: 10px;
+  border-top: 1px solid darkred;
+  border-bottom : 1px solid darkgreen;
+  border-left : 1px solid darkblue;
+  border-right : 1px solid lightsalmon;
+}
+table {
+  width: 30%;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
 }
