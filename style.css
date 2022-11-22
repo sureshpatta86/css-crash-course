@@ -28,3 +28,17 @@ h1 {
   font-size: 50px;
   text-decoration: underline;
 }
+.textlayout {
+  color: darkmagenta;
+  background-color: aqua;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+ul{
+    color: black;
+    list-style-type: armenian;
+    margin: 0;
+    padding: 0;
+}
