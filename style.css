@@ -44,7 +44,7 @@ ul {
 }
 .box-model {
   border: 3px solid red;
-  height: 50px;
+  height: 200px;
   width: 250px;
   padding: 20px;
   margin: 20px;
@@ -63,4 +63,21 @@ table {
 }
 td {
   text-align: center;
+}
+.position1{
+  border: 1px solid blue;
+  position: absolute;
+ top:0px;
+ right: 0px;
+}
+.position2{
+  border: 1px solid red;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.position3{
+  border: 1px solid green;
+  position: sticky;
+  top: 200px
 }
